@@ -32,10 +32,10 @@ export default function HomeBannerComic({
             {description}
           </p>
           <div className="flex mt-12 gap-5">
-            <button className="hover:cursor-pointer py-3 px-6 text-111 font-semibold rounded-lg bg-fbfdff">
+            <button className="z-10 py-3 px-6 text-111 font-semibold rounded-lg bg-fbfdff hover:cursor-pointer">
               Read Now
             </button>
-            <div className="flex h-11 py-3 px-5 items-center border rounded-lg">
+            <div className="z-10 flex h-11 py-3 hover:cursor-pointer px-5 items-center border rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="14"
@@ -54,7 +54,7 @@ export default function HomeBannerComic({
       </div>
       <div className="absolute inset-0 items-start py-8 sm:px-32 px-12 md:hidden lg:block">
         <div className="flex flex-wrap w-80 items-center content-center gap-2">
-          <div className="flex bg-222 text-fbfdff p-3 w-max rounded-md">
+          <div className=" flex bg-222 text-fbfdff p-3 w-max rounded-md">
             Fantasy
           </div>
           <div className="flex bg-222 text-fbfdff p-3 w-max rounded-md">

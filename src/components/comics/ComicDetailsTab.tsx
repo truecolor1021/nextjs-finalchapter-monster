@@ -90,7 +90,6 @@ export default function ComicDetailsTab({
                   <AccordionTrigger className="bg-finalChapterDarkGray hover:no-underline p-4 rounded-lg">
                     <div className="flex space-x-4">
                       <Avatar>
-                        <AvatarImage src="/placeholder-user.jpg" />
                         <AvatarFallback>MK</AvatarFallback>
                       </Avatar>
                       <div className="flex flex-col items-start">
@@ -120,7 +119,6 @@ export default function ComicDetailsTab({
                   <AccordionTrigger className="bg-finalChapterDarkGray hover:no-underline p-4 rounded-lg">
                     <div className="flex space-x-4">
                       <Avatar>
-                        <AvatarImage src="/placeholder-user.jpg" />
                         <AvatarFallback>MK</AvatarFallback>
                       </Avatar>
                       <div className="flex flex-col items-start">

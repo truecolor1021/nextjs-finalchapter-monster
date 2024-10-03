@@ -41,7 +41,7 @@ export default function Header() {
                 />
                 <div className="text-white absolute end-2.5 bottom-1 focus:ring-4 focus:outline-none text-NavFontsize rounded-lg text-sm px-4 py-2">
                   <svg
-                    className="w-4 h-4 text-gray-500 dark:text-gray-400"
+                    className="hover:cursor-pointer w-4 h-4 text-gray-500 dark:text-gray-400"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -60,10 +60,10 @@ export default function Header() {
             </form>
           </div>
           <div className="flex ml-12 justify-center">
-            <div className="text-xl px-6 py-1 rounded-md border border-gray-100 ">
+            <div className=" hover:cursor-pointer text-xl px-6 py-1 rounded-md border border-gray-100 ">
               Read
             </div>
-            <div className="ml-4 text-xl px-6 py-1 rounded-md border border-gray-600 text-fbfdff">
+            <div className="hover:cursor-pointer ml-4 text-xl px-6 py-1 rounded-md border border-gray-600 text-fbfdff">
               Publish
             </div>
           </div>

@@ -29,7 +29,7 @@ export default function ComicCarousel({
   return (
     <div className="bg-finalChapterBlack text-white flex flex-col w-full md:px-16">
       <div className="flex items-center md:justify-start justify-around pb-3">
-        <div className="md:w-40">
+        <div className="z-10 md:w-40">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="45"
@@ -45,7 +45,7 @@ export default function ComicCarousel({
             />
           </svg>
         </div>
-        <h2 className="text-fbfbff md:text-6xl text-4xl leading-heavy pl-2">
+        <h2 className="z-10 text-fbfbff md:text-6xl text-4xl leading-heavy pl-2">
           {title}
         </h2>
       </div>
