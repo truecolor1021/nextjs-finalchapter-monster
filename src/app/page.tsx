@@ -8,7 +8,7 @@ export default function Home() {
         <title>Login · FinalChapter</title>
       </Head>
 
-      <main className="flex min-h-screen min-w-full">
+      <main  className="flex min-h-screen min-w-full">
         <div className="flex bg-privy-light-blue flex-1 p-6 justify-center items-center">
           <div>
             <div>

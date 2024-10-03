@@ -85,29 +85,7 @@ export default function ComicOverlay({
                   height: "100%",
                 }}
               >
-                <div
-                  style={{
-                    alignItems: "center",
-                    backgroundColor: "#5f5f5f",
-                    borderBottom: "1px solid rgba(0, 0, 0, 0.1)",
-                    display: "flex",
-                    padding: "0.25rem",
-                  }}
-                >
-                  <Toolbar>{renderDefaultToolbar(transform)}</Toolbar>
-                </div>
-                <div
-                  style={{
-                    flex: 1,
-                    overflow: "hidden",
-                  }}
-                >
-                  <Viewer
-                    theme="dark"
-                    fileUrl={pdfUrl}
-                    plugins={[toolbarPluginInstance]}
-                  />
-                </div>
+
               </div>
             </Worker>
           )}
