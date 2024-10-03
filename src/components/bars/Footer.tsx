@@ -2,7 +2,28 @@ export default function Footer() {
   return (
     <div className="text-myFontsize md:h-800 h-620 w-full text-footerFontColor font-normal overflow-hidden">
       <div className="md:w-650 w-full absolute flex justify-around z-10 mt-15 leading-7">
-       
+        <div>
+          <p>Comics</p>
+          <p>Genres</p>
+          <p>Authors</p>
+          <p>Community</p>
+        </div>
+        <div>
+          <p>About</p>
+          <p>Contacts</p>
+          <p>Help</p>
+          <p>Advertise</p>
+        </div>
+        <div className="md:hidden block">
+          <p>Discord</p>
+          <p>X (Twitter)</p>
+          <p>Instagram</p>
+          <p>YouTube</p>
+        </div>
+        <div className="md:block hidden ">
+          <p>Privacy Policy</p>
+          <p>Terms and Service</p>
+        </div>
       </div>
       <div className="absolute md:block hidden flex justify-end z-10 mt-15 pr-16 w-full font-normal leading-7">
         <div className="float-right ">
