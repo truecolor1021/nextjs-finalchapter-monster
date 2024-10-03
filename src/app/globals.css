@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0c0c0c;
+  --foreground: #171717;
+}
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("./fonts/Neue-Regrade-Variable-BF65af35d87b6a7.ttf")
+    format("truetype");
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0c0c0c;
+    --foreground: #ededed;
+  }
+}
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure no overflow issues on mobile */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@layer base {
+  /* normal */
+  @font-face {
+    font-family: "Adelle Sans";
+    src: url("/fonts/AdelleSans-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+  }
+
+  /* semibold */
+  @font-face {
+    font-family: "Adelle Sans";
+    src: url("/fonts/AdelleSans-Semibold.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Neue Regrade";
+    src: url("/src/app/fonts/Neue\ Regrade\ Extrabold.otf") format(".otf");
+  }
+}
