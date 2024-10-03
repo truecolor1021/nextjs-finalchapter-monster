@@ -27,7 +27,7 @@ export default function ComicCarousel({
   list,
 }: ComicCarouselProps) {
   return (
-    <div className="bg-finalChapterBlack text-white flex flex-col w-full md:px-16">
+    <div className="bg-finalChapterBlack text-white flex flex-col w-full md:px-16 z-20">
       <div className="flex items-center md:justify-start justify-around pb-3">
         <div className="z-10 md:w-40">
           <svg
